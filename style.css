@@ -1,0 +1,85 @@
+body{
+    background-color: lightblue;
+    color: #151259;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#form-container{
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    height: 12vh;
+    position: relative;
+    bottom: 3vh;
+    font-size: 5.5vh;
+}
+
+.lightblue{
+    color: rgb(29, 146, 185);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#submit-btn{
+    text-transform: uppercase;
+    background-color: #83d7f2;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Montserrat Bold', sans-serif;
+    height: 10vh;
+    width: 30%;
+}
+
+.user-entry{
+    width: 48%;
+    height: 7vh;
+    margin-bottom: 2vh;
+}
+
+#user-entry-container{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+#email{
+    width:100%;
+}
+
+#newsletter-container{
+    display: flex;
+    align-items: center;
+}
+
+#cgu-container{
+    margin-bottom: 5vh;
+}
+
+#feedback-container{
+    display: none;
+}
